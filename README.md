@@ -19,6 +19,7 @@ H5动效
 >画文字，用(Text)
 >容器Container，容器可包含多个显示对象
 1. 绘图的大致流程: 创建显示对象→设置一些参数→调用方法绘制→添加到舞台→update()
+
 `<script src="easeljs-0.7.1.min.js"></script>`
 `<canvas id="canvas"></canvas>`
 
