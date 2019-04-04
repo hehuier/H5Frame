@@ -101,6 +101,7 @@ function DrawCanvans(){
 `
   数量过渡默认使用的是 TWEEN.Interpolation.Linear, 也可以使用 interpolation 方法做为时间变换的参数，除了 TWEEN.Interpolation.Linear 之外，还支持 TWEEN.Interpolation.Bezier, TWEEN.Interpolation.CatmullRom
 3. 自定义过渡函数
+
 `function stepEasing(k) {
 	return Math.floor(k * 10) / 10;
 }
